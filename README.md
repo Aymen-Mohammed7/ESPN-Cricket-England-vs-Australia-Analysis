@@ -14,10 +14,10 @@ This Power BI project provides a comprehensive performance analysis of **player 
 
 ## Tools & Technologies
 
-- **Power BI**: Data scraping, cleaning, and dashboard building
-- **Power Query**: Data preparation and transformation
-- **ESPN Cricinfo Statsguru**: Source for cricket records
-- **Git & GitHub**: For version control and project hosting
+- **Power BI:** Data scraping, cleaning, and dashboard building
+- **Power Query:** Data preparation and transformation
+- **ESPN Cricinfo Statsguru:** Source for cricket records
+- **Git & GitHub:** For version control and project hosting
 
 ---
 
@@ -42,7 +42,7 @@ This Power BI project provides a comprehensive performance analysis of **player 
 
 ## Data Collection
 
-**Method**: Power BI web scraping from three endpoints:
+**Method:** Power BI web scraping from three endpoints:
 - Batting Records
 - Bowling Records  
 - Fielding Records
@@ -62,10 +62,10 @@ The scraped data was loaded into **Power Query**, and cleaned with the following
 ## Dashboards & Visuals
 
 The cleaned tables were imported into **Power BI**, and a multi-page report was built with:
-- **Three Interactive Pages**: Batting, Bowling, and Fielding dashboards
-- **KPI Cards**: Key performance metrics for quick insights
-- **Player Selection**: Slicer for individual player analysis
-- **User Guidance**: Pop-up information buttons explaining data context
+- **Three Interactive Pages:** Batting, Bowling, and Fielding dashboards
+- **KPI Cards:** Key performance metrics for quick insights
+- **Player Selection:** Slicer for individual player analysis
+- **User Guidance:** Pop-up information buttons explaining data context
 
 **Dashboard Preview**  
 
@@ -87,17 +87,17 @@ Power BI file: [Download from Google Drive](https://drive.google.com/file/d/1ziy
 
 ## Key Insights
 
-- **Batting**: **JH Edrich** shows the best **batting average** with **82%** in one year only (1971-1971)
-- **Bowling**: **AU Rashid** has an eminent number of taken wickets with **51**, and **JM Anderson** has **38** wickets which is a big difference
-- **Fielding**: **JC Buttler** made **61** fielding dismissals in 12 years, and after him is **AJ Stewart** with **25** in 14 years
+- **Batting:** **JH Edrich** shows the best **batting average** with **82%** in one year only (1971-1971)
+- **Bowling:** **AU Rashid** has an eminent number of taken wickets with **51**, and **JM Anderson** has **38** wickets which is a big difference
+- **Fielding:** **JC Buttler** made **61** fielding dismissals in 12 years, and after him is **AJ Stewart** with **25** in 14 years
 
 ---
 
 ## Limitations
 
-There were limits for what could be done to do further analysis:
-- Player **nationality/team** affiliation not explicitly stated in source data
-- Lack of **match-by-match** statistics limited deeper contextual analysis
+During the analysis, certain limitations were identified:
+- **Player Nationality:** The scraped data does not explicitly state the nationality of each player, which could limit certain types of geographical analysis
+- **Match-Specific Statistics:** The dataset lacks individual match-level statistics, meaning the analysis is primarily aggregated at the player career level rather than match-by-match performance. This restricts the ability to perform detailed match scenario analysis
 
 ---
 
